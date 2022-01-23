@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+.wrapper{
+    width: 800px;
+    margin: 0 auto; /*centrar*/
+    display: block;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+}
+
+img{
+    max-width: 100%;
+}
+.title{
+    color: rgb(116, 116, 116);
+    font-family: 'Mochiy Pop P One', sans-serif;
+}

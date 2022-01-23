@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <h1 style="text-align: center;">API SPACE x DATA</h1>
+  <div class="gallery">
+    <div class="item" *ngFor="let item of data">
+      <h1 class="title">{{item.name}}</h1>
+      <p class="desciption">{{item.description}}</p>
+      <div class="imgs">
+        <img [src]="img" alt="" *ngFor="let img of item.flickr_images">
+      </div>
+    </div>
+  </div>
+</div>
